@@ -1,0 +1,42 @@
+.body{
+    padding: 30px 100px;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+p{
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.hero_sec{
+    display: flex;
+    justify-content: space-between;
+}
+
+form{
+    width: 40%;
+    padding: 50px;
+    background-color: rgb(139, 231, 139);
+    border-radius: 20px;
+
+}
+
+
+.btndiv{
+display: flex;
+justify-content: space-between;
+}
+
+.right{
+    width: 50%;
+}
+
+.pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+
+}
