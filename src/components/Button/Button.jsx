@@ -1,9 +1,9 @@
 import styles from "./button.module.css"
 
-const Button =({name,emailBtn,icon})=>{
+const Button =({message,emailBtn,icon,onClick,style})=>{
     return(
-        <button className={emailBtn ? styles.emailBtn : styles.btn}>
-           {icon} {name}
+        <button onClick={onClick}  style={style} className={emailBtn ? styles.emailBtn : styles.btn}>
+           {icon} {message}  
         </button>
     )
 }
